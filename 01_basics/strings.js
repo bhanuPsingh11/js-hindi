@@ -39,3 +39,7 @@ const hyphenRegex = /-/g;
 const newURL = htmlURL.replace(hyphenRegex, "$");
 
 console.log(newURL);
+
+const fName =  "B-h-a-n-u";
+
+console.log(fName.replaceAll("-", "$"));
